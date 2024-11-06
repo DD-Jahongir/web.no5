@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const total = quantity * productPrice;
-        resultElement.innerText = "Стоимость заказа: " + total + " руб.";
+        resultElement.innerText = "Итоговая стоимость товара: " + total + " руб.";
     });
 
     // Форма 2
@@ -82,6 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         totalPrice *= quantity;
-        totalPriceElement.innerText = `Итоговая стоимость: ${totalPrice} руб.`;
+        totalPriceElement.innerText = `Итоговая стоимость услуги: ${totalPrice} руб.`;
     });
 });
